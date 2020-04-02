@@ -9,6 +9,8 @@ namespace Assets.Scripts
 {
     public abstract class Creature : MonoBehaviour
     {
+        protected abstract void Start();
+        protected abstract void Update();
         protected Rigidbody2D Rigidbody { get; set; }
         protected bool Grounded { get; set; }
         public void Jump()

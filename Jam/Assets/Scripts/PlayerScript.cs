@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class PlayerScript : Creature
 {
-    void Start()
+    protected override void Start()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
         Grounded = true;
     }
 
-    void Update()
+    protected override void Update()
     {
         CheckForMovement();
         CheckForJump();
