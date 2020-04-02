@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assets.Scripts
+{
+    public class Constants
+    {
+        public static string Horizontal = "Horizontal";
+        public static float PlayerVelocityModifier = 5.00f;
+        public static float PlayerJumpForce = 5.00f;
+    }
+}
