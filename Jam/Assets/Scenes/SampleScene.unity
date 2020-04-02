@@ -275,7 +275,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -242150899
   m_SortingLayer: 2
-  m_SortingOrder: 10
+  m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1059,6 +1059,86 @@ PrefabInstance:
     - target: {fileID: 400042, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.004038169
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200002, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200002, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200004, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200004, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200006, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200006, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200008, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200008, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200010, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200010, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200012, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200012, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200014, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200014, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200016, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200016, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200018, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -242150899
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200018, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ae1c1fbb4376dd46827a058677ecadb, type: 3}
