@@ -19,15 +19,19 @@ public class PlayerScript : Creature
 
     private void CheckForJump()
     {
+        
+        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
+            base.Jump();
+        var hitInfo = Physics2D.Raycast(transform.position, Vector2.down, 1.0f, 1 << 8);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Grodunded:" + Grounded);
             Debug.Log("Velocity:" + Rigidbody.velocity.y);
+            Debug.Log("Colider:" + hitInfo == null ? "hitinfo is null" : hitInfo.collider == null ? "collider is null" : hitInfo.collider.name);
         }
-        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
-            base.Jump();
-        var hitInfo = Physics2D.Raycast(transform.position, Vector2.down, 1.0f, 1 << 8);
-        if (hitInfo.collider != null && base.IsStandingStill)
+
+        if (/*hitInfo.collider != null && */base.IsStandingStill)
             Grounded = true;
     }
 
