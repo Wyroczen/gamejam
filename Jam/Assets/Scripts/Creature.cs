@@ -14,6 +14,9 @@ namespace Assets.Scripts
         protected Rigidbody2D Rigidbody { get; set; }
         protected Animator Animator { get; set; }
         protected bool Grounded { get; set; }
+        [SerializeField] protected int health;
+        [SerializeField] protected int speed;
+        [SerializeField] protected int damage;
         public void Jump()
         {
             Rigidbody.velocity = new Vector2(Rigidbody.velocity.x, Constants.PlayerJumpForce);
@@ -32,7 +35,7 @@ namespace Assets.Scripts
                 return Rigidbody.velocity.y == 0.00f;
             }
         }
-        public void Attack()
+        public virtual void Attack()
         {
             Animator.SetTrigger(Constants.Attack);
         }
