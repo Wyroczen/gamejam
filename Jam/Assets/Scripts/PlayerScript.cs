@@ -18,6 +18,7 @@ public class PlayerScript : Creature
         CheckForMovement();
         CheckForJump();
         CheckForAttack();
+        CheckForBuild();
     }
 
     private void CheckForJump()
@@ -51,5 +52,23 @@ public class PlayerScript : Creature
         var horizontalInput = Input.GetAxisRaw(Constants.Horizontal);
         Animator.SetFloat("Move", Math.Abs(horizontalInput));
         base.Move(horizontalInput);
+    }
+
+    private void CheckForBuild()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+            BuildGate();
+        if (Input.GetKeyDown(KeyCode.N))
+            BuildLantern();
+    }
+
+    private void BuildLantern()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void BuildGate()
+    {
+        throw new NotImplementedException();
     }
 }

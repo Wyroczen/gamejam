@@ -33,7 +33,7 @@ namespace Assets.Scripts
         }
         public void Attack()
         {
-            Animator.SetBool("Attack", true);
+            Animator.SetTrigger("Attack");
         }
     }
 }
