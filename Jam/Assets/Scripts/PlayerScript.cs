@@ -17,6 +17,7 @@ public class PlayerScript : Creature
     {
         CheckForMovement();
         CheckForJump();
+        CheckForAttack();
     }
 
     private void CheckForJump()
@@ -35,6 +36,14 @@ public class PlayerScript : Creature
 
         if (base.IsStandingStill)
             Grounded = true;
+    }
+
+    private void CheckForAttack()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            base.Attack();
+        }
     }
 
     private void CheckForMovement()

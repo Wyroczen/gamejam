@@ -31,5 +31,9 @@ namespace Assets.Scripts
                 return Rigidbody.velocity.y == 0;
             }
         }
+        public void Attack()
+        {
+            Animator.SetBool("Attack", true);
+        }
     }
 }
