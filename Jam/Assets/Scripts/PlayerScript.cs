@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class PlayerScript : Creature
     protected override void Start()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
         Grounded = true;
     }
 
@@ -31,13 +33,14 @@ public class PlayerScript : Creature
             Debug.Log("Colider:" + hitInfo == null ? "hitinfo is null" : hitInfo.collider == null ? "collider is null" : hitInfo.collider.name);
         }
 
-        if (/*hitInfo.collider != null && */base.IsStandingStill)
+        if (base.IsStandingStill)
             Grounded = true;
     }
 
     private void CheckForMovement()
     {
         var horizontalInput = Input.GetAxisRaw(Constants.Horizontal);
+        Animator.SetFloat("Move", Math.Abs(horizontalInput));
         base.Move(horizontalInput);
     }
 }
