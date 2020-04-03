@@ -32,7 +32,7 @@ namespace Assets.Scripts
         }
         public void Attack()
         {
-            Animator.SetTrigger("Attack");
+            Animator.SetTrigger(Constants.Attack);
         }
     }
 }
