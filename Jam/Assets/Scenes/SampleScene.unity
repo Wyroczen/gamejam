@@ -4808,6 +4808,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.1087244
       objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19794832
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9802125
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22.834002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.08837607
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99608725
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -10.14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d9e8f500578e48499e12dc2fd1f5abf, type: 3}
 --- !u!1 &1068311293
