@@ -21,13 +21,15 @@ namespace Assets.Scripts
         }
         public void Move(float direction)
         {
+            float newY = direction == 0 ? transform.rotation.y : direction > 0.00f ? 0f : 180f;
+            transform.rotation = new Quaternion(transform.rotation.x, newY, transform.rotation.z, transform.rotation.w);
             Rigidbody.velocity = new Vector2(direction * Constants.PlayerVelocityModifier, Rigidbody.velocity.y);
         }
         public bool IsStandingStill
         {
             get
             {
-                return Rigidbody.velocity.y == 0;
+                return Rigidbody.velocity.y == 0.00f;
             }
         }
         public void Attack()
