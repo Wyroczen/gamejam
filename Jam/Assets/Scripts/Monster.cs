@@ -30,6 +30,17 @@ namespace Assets.Scripts
 
         protected override void Update()
         {
+            RunRandomly();
+            AttackRandomly();
+        }
+
+        private void AttackRandomly()
+        {
+            if (direction % 10 == 0)
+                base.Attack();
+        }
+        private void RunRandomly()
+        {
             //temporary logic of movement for this bastard
             direction += 1.0f;
             if (direction > 200.0f)
