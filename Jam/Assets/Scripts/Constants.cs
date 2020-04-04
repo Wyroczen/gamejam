@@ -12,5 +12,6 @@ namespace Assets.Scripts
         public static string Attack = "Attack";
         public static float PlayerVelocityModifier = 5.00f;
         public static float PlayerJumpForce = 5.00f;
+        public static int AttackDamage = 10;
     }
 }

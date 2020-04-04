@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public abstract class Creature : MonoBehaviour
+    public abstract class Creature : MonoBehaviour, IDamagable
     {
         protected abstract void Start();
         protected abstract void Update();
@@ -35,9 +35,18 @@ namespace Assets.Scripts
                 return Rigidbody.velocity.y == 0.00f;
             }
         }
+
+        public int Health { get; set; }
+
         public virtual void Attack()
         {
             Animator.SetTrigger(Constants.Attack);
+        }
+
+        public virtual void Damage()
+        {
+            if (Health < 1)
+                Destroy(this.gameObject);
         }
     }
 }
