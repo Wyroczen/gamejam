@@ -7,7 +7,7 @@ public class TilemapParallax : MonoBehaviour
 {
     [SerializeField] float scrollSpeed = 0.3f;
     [SerializeField] float offSet = 0f;
-    [SerializeField] GameObject viewTarget; //camera
+    [SerializeField] public GameObject ViewTarget; //camera
     [SerializeField] bool xOnly = true;
 
     Tilemap tileMap;
@@ -20,8 +20,8 @@ public class TilemapParallax : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float newXPos = viewTarget.transform.position.x * (scrollSpeed + offSet);
-        float newYPos = viewTarget.transform.position.y * (scrollSpeed + offSet);
+        float newXPos = ViewTarget.transform.position.x * (scrollSpeed + offSet);
+        float newYPos = ViewTarget.transform.position.y * (scrollSpeed + offSet);
 
         if (xOnly)
         {
