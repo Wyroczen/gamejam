@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09f50d0ab2d0b34d8638a31795dbfb2, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  name: New Item
+  name: Sword +9
   icon: {fileID: 0}
   isDefaultItem: 0
