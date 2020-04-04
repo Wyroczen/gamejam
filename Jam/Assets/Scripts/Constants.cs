@@ -10,6 +10,7 @@ namespace Assets.Scripts
     {
         public static string Horizontal = "Horizontal";
         public static string Attack = "Attack";
+        public static string Jump = "Jump";
         public static float PlayerVelocityModifier = 5.00f;
         public static float PlayerJumpForce = 5.00f;
     }

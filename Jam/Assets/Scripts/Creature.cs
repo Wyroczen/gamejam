@@ -20,6 +20,7 @@ namespace Assets.Scripts
         public void Jump()
         {
             Rigidbody.velocity = new Vector2(Rigidbody.velocity.x, Constants.PlayerJumpForce);
+            Animator.SetBool(Constants.Jump, true);
             Grounded = false;
         }
         public void Move(float direction)
@@ -32,7 +33,7 @@ namespace Assets.Scripts
         {
             get
             {
-                return Rigidbody.velocity.y == 0.00f;
+                return Rigidbody.velocity.y < Math.Abs(0.30f);
             }
         }
         public virtual void Attack()
