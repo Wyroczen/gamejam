@@ -1,7 +1,332 @@
 fileFormatVersion: 2
 guid: 80e4bc21e783df84b8cb5c0bc15276db
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: color of the sky_0
+    21300002: color of the sky_1
+    21300004: color of the sky_2
+    21300006: color of the sky_3
+    21300008: color of the sky_4
+    21300010: color of the sky_5
+    21300012: color of the sky_6
+    21300014: color of the sky_7
+    21300016: color of the sky_8
+    21300018: color of the sky_9
+    21300020: color of the sky_10
+    21300022: color of the sky_11
+    21300024: color of the sky_12
+    21300026: color of the sky_13
+    21300028: color of the sky_14
+    21300030: color of the sky_15
+    21300032: color of the sky_16
+    21300034: color of the sky_17
+    21300036: color of the sky_18
+    21300038: color of the sky_19
+    21300040: color of the sky_20
+    21300042: color of the sky_21
+    21300044: color of the sky_22
+    21300046: color of the sky_23
+    21300048: color of the sky_24
+    21300050: color of the sky_25
+    21300052: color of the sky_26
+    21300054: color of the sky_27
+    21300056: color of the sky_28
+    21300058: color of the sky_29
+    21300060: color of the sky_30
+    21300062: color of the sky_31
+    21300064: color of the sky_32
+    21300066: color of the sky_33
+    21300068: color of the sky_34
+    21300070: color of the sky_35
+    21300072: color of the sky_36
+    21300074: color of the sky_37
+    21300076: color of the sky_38
+    21300078: color of the sky_39
+    21300080: color of the sky_40
+    21300082: color of the sky_41
+    21300084: color of the sky_42
+    21300086: color of the sky_43
+    21300088: color of the sky_44
+    21300090: color of the sky_45
+    21300092: color of the sky_46
+    21300094: color of the sky_47
+    21300096: color of the sky_48
+    21300098: color of the sky_49
+    21300100: color of the sky_50
+    21300102: color of the sky_51
+    21300104: color of the sky_52
+    21300106: color of the sky_53
+    21300108: color of the sky_54
+    21300110: color of the sky_55
+    21300112: color of the sky_56
+    21300114: color of the sky_57
+    21300116: color of the sky_58
+    21300118: color of the sky_59
+    21300120: color of the sky_60
+    21300122: color of the sky_61
+    21300124: color of the sky_62
+    21300126: color of the sky_63
+    21300128: color of the sky_64
+    21300130: color of the sky_65
+    21300132: color of the sky_66
+    21300134: color of the sky_67
+    21300136: color of the sky_68
+    21300138: color of the sky_69
+    21300140: color of the sky_70
+    21300142: color of the sky_71
+    21300144: color of the sky_72
+    21300146: color of the sky_73
+    21300148: color of the sky_74
+    21300150: color of the sky_75
+    21300152: color of the sky_76
+    21300154: color of the sky_77
+    21300156: color of the sky_78
+    21300158: color of the sky_79
+    21300160: color of the sky_80
+    21300162: color of the sky_81
+    21300164: color of the sky_82
+    21300166: color of the sky_83
+    21300168: color of the sky_84
+    21300170: color of the sky_85
+    21300172: color of the sky_86
+    21300174: color of the sky_87
+    21300176: color of the sky_88
+    21300178: color of the sky_89
+    21300180: color of the sky_90
+    21300182: color of the sky_91
+    21300184: color of the sky_92
+    21300186: color of the sky_93
+    21300188: color of the sky_94
+    21300190: color of the sky_95
+    21300192: color of the sky_96
+    21300194: color of the sky_97
+    21300196: color of the sky_98
+    21300198: color of the sky_99
+    21300200: color of the sky_100
+    21300202: color of the sky_101
+    21300204: color of the sky_102
+    21300206: color of the sky_103
+    21300208: color of the sky_104
+    21300210: color of the sky_105
+    21300212: color of the sky_106
+    21300214: color of the sky_107
+    21300216: color of the sky_108
+    21300218: color of the sky_109
+    21300220: color of the sky_110
+    21300222: color of the sky_111
+    21300224: color of the sky_112
+    21300226: color of the sky_113
+    21300228: color of the sky_114
+    21300230: color of the sky_115
+    21300232: color of the sky_116
+    21300234: color of the sky_117
+    21300236: color of the sky_118
+    21300238: color of the sky_119
+    21300240: color of the sky_120
+    21300242: color of the sky_121
+    21300244: color of the sky_122
+    21300246: color of the sky_123
+    21300248: color of the sky_124
+    21300250: color of the sky_125
+    21300252: color of the sky_126
+    21300254: color of the sky_127
+    21300256: color of the sky_128
+    21300258: color of the sky_129
+    21300260: color of the sky_130
+    21300262: color of the sky_131
+    21300264: color of the sky_132
+    21300266: color of the sky_133
+    21300268: color of the sky_134
+    21300270: color of the sky_135
+    21300272: color of the sky_136
+    21300274: color of the sky_137
+    21300276: color of the sky_138
+    21300278: color of the sky_139
+    21300280: color of the sky_140
+    21300282: color of the sky_141
+    21300284: color of the sky_142
+    21300286: color of the sky_143
+    21300288: color of the sky_144
+    21300290: color of the sky_145
+    21300292: color of the sky_146
+    21300294: color of the sky_147
+    21300296: color of the sky_148
+    21300298: color of the sky_149
+    21300300: color of the sky_150
+    21300302: color of the sky_151
+    21300304: color of the sky_152
+    21300306: color of the sky_153
+    21300308: color of the sky_154
+    21300310: color of the sky_155
+    21300312: color of the sky_156
+    21300314: color of the sky_157
+    21300316: color of the sky_158
+    21300318: color of the sky_159
+    21300320: color of the sky_160
+    21300322: color of the sky_161
+    21300324: color of the sky_162
+    21300326: color of the sky_163
+    21300328: color of the sky_164
+    21300330: color of the sky_165
+    21300332: color of the sky_166
+    21300334: color of the sky_167
+    21300336: color of the sky_168
+    21300338: color of the sky_169
+    21300340: color of the sky_170
+    21300342: color of the sky_171
+    21300344: color of the sky_172
+    21300346: color of the sky_173
+    21300348: color of the sky_174
+    21300350: color of the sky_175
+    21300352: color of the sky_176
+    21300354: color of the sky_177
+    21300356: color of the sky_178
+    21300358: color of the sky_179
+    21300360: color of the sky_180
+    21300362: color of the sky_181
+    21300364: color of the sky_182
+    21300366: color of the sky_183
+    21300368: color of the sky_184
+    21300370: color of the sky_185
+    21300372: color of the sky_186
+    21300374: color of the sky_187
+    21300376: color of the sky_188
+    21300378: color of the sky_189
+    21300380: color of the sky_190
+    21300382: color of the sky_191
+    21300384: color of the sky_192
+    21300386: color of the sky_193
+    21300388: color of the sky_194
+    21300390: color of the sky_195
+    21300392: color of the sky_196
+    21300394: color of the sky_197
+    21300396: color of the sky_198
+    21300398: color of the sky_199
+    21300400: color of the sky_200
+    21300402: color of the sky_201
+    21300404: color of the sky_202
+    21300406: color of the sky_203
+    21300408: color of the sky_204
+    21300410: color of the sky_205
+    21300412: color of the sky_206
+    21300414: color of the sky_207
+    21300416: color of the sky_208
+    21300418: color of the sky_209
+    21300420: color of the sky_210
+    21300422: color of the sky_211
+    21300424: color of the sky_212
+    21300426: color of the sky_213
+    21300428: color of the sky_214
+    21300430: color of the sky_215
+    21300432: color of the sky_216
+    21300434: color of the sky_217
+    21300436: color of the sky_218
+    21300438: color of the sky_219
+    21300440: color of the sky_220
+    21300442: color of the sky_221
+    21300444: color of the sky_222
+    21300446: color of the sky_223
+    21300448: color of the sky_224
+    21300450: color of the sky_225
+    21300452: color of the sky_226
+    21300454: color of the sky_227
+    21300456: color of the sky_228
+    21300458: color of the sky_229
+    21300460: color of the sky_230
+    21300462: color of the sky_231
+    21300464: color of the sky_232
+    21300466: color of the sky_233
+    21300468: color of the sky_234
+    21300470: color of the sky_235
+    21300472: color of the sky_236
+    21300474: color of the sky_237
+    21300476: color of the sky_238
+    21300478: color of the sky_239
+    21300480: color of the sky_240
+    21300482: color of the sky_241
+    21300484: color of the sky_242
+    21300486: color of the sky_243
+    21300488: color of the sky_244
+    21300490: color of the sky_245
+    21300492: color of the sky_246
+    21300494: color of the sky_247
+    21300496: color of the sky_248
+    21300498: color of the sky_249
+    21300500: color of the sky_250
+    21300502: color of the sky_251
+    21300504: color of the sky_252
+    21300506: color of the sky_253
+    21300508: color of the sky_254
+    21300510: color of the sky_255
+    21300512: color of the sky_256
+    21300514: color of the sky_257
+    21300516: color of the sky_258
+    21300518: color of the sky_259
+    21300520: color of the sky_260
+    21300522: color of the sky_261
+    21300524: color of the sky_262
+    21300526: color of the sky_263
+    21300528: color of the sky_264
+    21300530: color of the sky_265
+    21300532: color of the sky_266
+    21300534: color of the sky_267
+    21300536: color of the sky_268
+    21300538: color of the sky_269
+    21300540: color of the sky_270
+    21300542: color of the sky_271
+    21300544: color of the sky_272
+    21300546: color of the sky_273
+    21300548: color of the sky_274
+    21300550: color of the sky_275
+    21300552: color of the sky_276
+    21300554: color of the sky_277
+    21300556: color of the sky_278
+    21300558: color of the sky_279
+    21300560: color of the sky_280
+    21300562: color of the sky_281
+    21300564: color of the sky_282
+    21300566: color of the sky_283
+    21300568: color of the sky_284
+    21300570: color of the sky_285
+    21300572: color of the sky_286
+    21300574: color of the sky_287
+    21300576: color of the sky_288
+    21300578: color of the sky_289
+    21300580: color of the sky_290
+    21300582: color of the sky_291
+    21300584: color of the sky_292
+    21300586: color of the sky_293
+    21300588: color of the sky_294
+    21300590: color of the sky_295
+    21300592: color of the sky_296
+    21300594: color of the sky_297
+    21300596: color of the sky_298
+    21300598: color of the sky_299
+    21300600: color of the sky_300
+    21300602: color of the sky_301
+    21300604: color of the sky_302
+    21300606: color of the sky_303
+    21300608: color of the sky_304
+    21300610: color of the sky_305
+    21300612: color of the sky_306
+    21300614: color of the sky_307
+    21300616: color of the sky_308
+    21300618: color of the sky_309
+    21300620: color of the sky_310
+    21300622: color of the sky_311
+    21300624: color of the sky_312
+    21300626: color of the sky_313
+    21300628: color of the sky_314
+    21300630: color of the sky_315
+    21300632: color of the sky_316
+    21300634: color of the sky_317
+    21300636: color of the sky_318
+    21300638: color of the sky_319
+    21300640: color of the sky_320
+    21300642: color of the sky_321
+    21300644: color of the sky_322
+    21300646: color of the sky_323
+    21300648: color of the sky_324
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,12 +365,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,9 +394,1482 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: color of the sky_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48371398c611e634a94e01689f92a8bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b91bf64f12cf8441ac6ebcc33387ae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450e90c9f4758a24883a5d3017697f22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3678942f02ed7a149a7f4c7f4e42a67e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9de2860428a4084bb59844a9924452e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d815d6cda4461d468caeb4d6c5db0cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27abed54f58c474bb9feef750627999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86870f9730f4790428bb1c8106a20bba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b1b00c212b6864ab262d28147510e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6555eaca7974e04cbc2c2295ba372a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e063d65fd9f7a642b0bf2d45ff55c65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 766
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacc763f3244e1d4ab6b6495ba0ee13e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8ade6e886b8b04dac31d0f48c82493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941c36d82d0115a43a131a3634c680c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4cb1e089f187845b6c94aab42a75a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d23ce57079506548b52595a3fe0770b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6ac43c4a2a7b842a27130b1b340097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441d057b161a1e04cb79ca751857c216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b363d9bf976bd247aab1785fa3c78f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_19
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3fdae234bdb6047a02b18c41678e6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50684da90d5a524192b26fc2a9030b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_21
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598e7b56c599a594e9e1334297eeba0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed5181bc0fab1841b25bcb31c776491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_23
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 638
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba92c2fb77ecf364baa9a50ef7adb7ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf271d0dfba2b494dbbab6d8d7fcbc0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a48dc6b21b1ec4a836523121002684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23332eaee2dde94b801c79259962824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159967fe3ee2dda459a1ef2ebece14eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2886d5adbd1a3f94bb42e22112feeb11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8652c6f84c3d00a4b8b59925a853478d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a819e8879cf9a8244950824c700b7a89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ba99fc7c5c00641ba8aadfde4d7b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51edcbec63eeab84a93187671e6a2f90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_33
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc61d5867eab5a643887c90832253867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_34
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6afe45c0a3c7ff41ba35fcfa117d7ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_35
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 510
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f0508e291260e4c971e0a867ad124a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf7fafa46f554b459ee65c20e0749a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a1c53db093ac946b9cb5c64c00586e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfbf51ebe84afa43b335a9e8c8fc1c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a070c884f56d4db6d17d5b54e6ef3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0359c333056eaba42a95b4df1c8fb62c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665849674da8fbe44904755c20ccf202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983f7df01fa8c474a8fb56c7c37966af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_43
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66218393ef617ce4d983ac0d5b87db52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e02ca6800ee46041bc4366b704a4eca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_45
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16a92d20b5c4fd418e622a66d21302d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_46
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9a3531aa2c92544a394c7effb180bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_47
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b9d61469514f741be78169ce2b73b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d87ba84b1330740a98d1a5694d5b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a062560e6f4d8e4a9ff7d89e5a6a086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d6e5c1df0772746b025e4cbc543079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805cadb9606350846a9d275d918d2115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d119062bf0da0248843e2271b6c7960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03b520e4cad59349830627ccd7a81c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68fc300e48dda94ba28fe5387dee93f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560a305010cea3f49b5a7a404d2f69b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ee24607de1ec344a235d27134f37cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91472ca4f119c624e97b71c59751b7d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5278a3c8d6a6f41be0f6c02575ee96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e6c2b856df3914b9308bd0c2ded212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64055d8fb355f9a44bcd9a267d6645bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f430ba7eccf04f14f8b761b0421fe0c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4121e8fa33643294bbdaaa4685e9017c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b045d8c05033c42b5971eddecb6e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000ba8bea6270e14bbcf619522a93332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f1acac0fb8187468f46400cb0d2879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f9c2d8c2c31e47818f2b0756a9f93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41daccb4c5ee924a85f37bb194abdf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc849ecca8d3ef42a0fc6597e0b352c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5fab6a31020694a93716d2db3e6b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c63fc426ba6fbe46829bb76995eef89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: color of the sky_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 126
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12a6374418c53c4bb71aba4764c6603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
