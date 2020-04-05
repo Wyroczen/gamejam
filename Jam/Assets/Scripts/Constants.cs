@@ -13,5 +13,7 @@ namespace Assets.Scripts
         public static float PlayerVelocityModifier = 5.00f;
         public static float PlayerJumpForce = 5.00f;
         public static int AttackDamage = 10;
+
+        public static float MonsterVelocityModfier = 2.00f;
     }
 }

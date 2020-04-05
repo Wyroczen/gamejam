@@ -22,10 +22,11 @@ namespace Assets.Scripts
 
         protected override void Start()
         {
-            direction = 0.00f;
+            direction = -200.00f;
             health = 100;
             Health = health;
             Rigidbody = GetComponent<Rigidbody2D>();
+            Animator = GetComponent<Animator>();
         }
 
         protected override void Update()
@@ -36,16 +37,15 @@ namespace Assets.Scripts
 
         private void AttackRandomly()
         {
-            if (direction % 10 == 0)
+            if ((int)direction % 10 == 0)
                 base.Attack();
         }
         private void RunRandomly()
         {
-            //temporary logic of movement for this bastard
             direction += 1.0f;
             if (direction > 200.0f)
                 direction = -200.0f;
-            base.Move(direction > 0 ? 1.0f : -1.0f);
+            base.Move(direction > 0 ? 1.0f : -1.0f, Constants.MonsterVelocityModfier);
         }
     }
 }

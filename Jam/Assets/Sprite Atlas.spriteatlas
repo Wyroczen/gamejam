@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 8edf4541af187dc45a9bc4b400de58b2, type: 3}
-    totalSpriteSurfaceArea: 28849948
+    totalSpriteSurfaceArea: 29005466
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -240,6 +240,7 @@ SpriteAtlas:
   - {fileID: 21300120, guid: 80e4bc21e783df84b8cb5c0bc15276db, type: 3}
   - {fileID: 21300000, guid: 69678dd1b78a5a74fa098b211cc6ca68, type: 3}
   - {fileID: 21300000, guid: 3758a253afe84f64dbad3f8fc08d11ba, type: 3}
+  - {fileID: 21300000, guid: 80e065537e1b244478435e591003e4f6, type: 3}
   - {fileID: 21300000, guid: 5285f8a3ec4f7224f9f6223f699d1837, type: 3}
   - {fileID: 21300012, guid: c66f54d3e12009149a223564bdc008d0, type: 3}
   - {fileID: 21300014, guid: c66f54d3e12009149a223564bdc008d0, type: 3}
@@ -612,6 +613,7 @@ SpriteAtlas:
   - {fileID: 21300064, guid: b7f19ee97f2d03f4ba1e0b11bc5c9b9b, type: 3}
   - {fileID: 21300062, guid: b7f19ee97f2d03f4ba1e0b11bc5c9b9b, type: 3}
   - {fileID: 21300060, guid: b7f19ee97f2d03f4ba1e0b11bc5c9b9b, type: 3}
+  - {fileID: 21300000, guid: 478f0e5af2a295d4788fd49535e65a80, type: 3}
   - {fileID: 21300020, guid: a96df0fce038ab04f8cbc2bcbf04eba9, type: 3}
   - {fileID: 21300006, guid: a96df0fce038ab04f8cbc2bcbf04eba9, type: 3}
   - {fileID: 21300004, guid: a96df0fce038ab04f8cbc2bcbf04eba9, type: 3}
@@ -623,6 +625,7 @@ SpriteAtlas:
   - {fileID: 21300008, guid: a96df0fce038ab04f8cbc2bcbf04eba9, type: 3}
   - {fileID: 21300018, guid: a96df0fce038ab04f8cbc2bcbf04eba9, type: 3}
   - {fileID: 21300016, guid: a96df0fce038ab04f8cbc2bcbf04eba9, type: 3}
+  - {fileID: 21300000, guid: 3f4fa6fc6fa2400449cb1ef8f0ed6353, type: 3}
   - {fileID: 21300008, guid: ad93841dcd31a3041927aa8c7fd3bc55, type: 3}
   - {fileID: 21300010, guid: ad93841dcd31a3041927aa8c7fd3bc55, type: 3}
   - {fileID: 21300004, guid: ad93841dcd31a3041927aa8c7fd3bc55, type: 3}
@@ -868,6 +871,7 @@ SpriteAtlas:
   - color of the sky_60
   - color of the grass
   - tree close fixed
+  - Start
   - house
   - grass_6
   - grass_7
@@ -1240,6 +1244,7 @@ SpriteAtlas:
   - grass_32
   - grass_31
   - grass_30
+  - Quit
   - ground_10
   - ground_3
   - ground_2
@@ -1251,6 +1256,7 @@ SpriteAtlas:
   - ground_4
   - ground_9
   - ground_8
+  - Title
   - sky top_4
   - sky top_5
   - sky top_2

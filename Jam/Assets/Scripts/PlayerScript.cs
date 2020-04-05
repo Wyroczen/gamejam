@@ -11,6 +11,7 @@ public class PlayerScript : Creature
         Rigidbody = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         Grounded = true;
+        Health = 200;
     }
 
     protected override void Update()
@@ -47,11 +48,17 @@ public class PlayerScript : Creature
         }
     }
 
+    public override void Damage()
+    {
+        Health -= 30;
+        base.Damage();
+    }
+
     private void CheckForMovement()
     {
         var horizontalInput = Input.GetAxisRaw(Constants.Horizontal);
         Animator.SetFloat("Move", Math.Abs(horizontalInput));
-        base.Move(horizontalInput);
+        base.Move(horizontalInput, Constants.PlayerVelocityModifier);
     }
 
     private void CheckForBuild()

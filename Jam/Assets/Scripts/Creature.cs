@@ -22,12 +22,13 @@ namespace Assets.Scripts
             Rigidbody.velocity = new Vector2(Rigidbody.velocity.x, Constants.PlayerJumpForce);
             Grounded = false;
         }
-        public void Move(float direction)
+        public void Move(float direction, float speed)
         {
             float newY = direction == 0 ? transform.rotation.y : direction > 0.00f ? 0f : 180f;
             transform.rotation = new Quaternion(transform.rotation.x, newY, transform.rotation.z, transform.rotation.w);
-            Rigidbody.velocity = new Vector2(direction * Constants.PlayerVelocityModifier, Rigidbody.velocity.y);
+            Rigidbody.velocity = new Vector2(direction * speed, Rigidbody.velocity.y);
         }
+
         public bool IsStandingStill
         {
             get
@@ -45,6 +46,7 @@ namespace Assets.Scripts
 
         public virtual void Damage()
         {
+            Debug.Log("DAMAGE! Health of " + this.name + ": " + Health);
             if (Health < 1)
                 Destroy(this.gameObject);
         }
