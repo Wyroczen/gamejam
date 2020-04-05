@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09f50d0ab2d0b34d8638a31795dbfb2, type: 3}
   m_Name: Arch
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 0}
+  name: Arch
+  icon: {fileID: 21300000, guid: 2df51f6d32966b64aaad89c48d1ad3fa, type: 3}
   isDefaultItem: 0
