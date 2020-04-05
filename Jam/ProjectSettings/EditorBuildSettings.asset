@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Village.unity
     guid: 32d26438be7db6c408e0bbd1f7120d15
+  - enabled: 1
+    path: Assets/Scenes/Village_Night.unity
+    guid: 44cd3ab58fa03d648be2100ada66aebc
   m_configObjects: {}

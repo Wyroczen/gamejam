@@ -7,12 +7,9 @@ public class Teleport : MonoBehaviour
 {
     [SerializeField] private string nextSceneName;
 
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collider)
     {
-        Debug.Log("Elo");
-        if (collision.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
             SceneManager.LoadScene(nextSceneName);
     }
 
