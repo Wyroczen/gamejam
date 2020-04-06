@@ -16220,7 +16220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bb8302bbf8adf4f8c64e2fdf00e70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Village
+  nextSceneName: Village_Night
 --- !u!61 &694061266
 BoxCollider2D:
   m_ObjectHideFlags: 0
