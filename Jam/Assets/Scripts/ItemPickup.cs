@@ -9,6 +9,8 @@ public class ItemPickup : MonoBehaviour
     [SerializeField]
     private TMP_Text pickUpText;
 
+    public GameObject NewShed;
+
     private bool pickUpAllowed;
     public Item item;
     // Start is called before the first frame update
@@ -67,6 +69,8 @@ public class ItemPickup : MonoBehaviour
 
         if (countLogs > 1 && countSoi > 0)
         {
+            var newShed = Instantiate(NewShed) as GameObject;
+            newShed.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3.0f, gameObject.transform.position.z);
             Destroy(gameObject);
         }
         else
