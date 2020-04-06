@@ -1638,7 +1638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bb8302bbf8adf4f8c64e2fdf00e70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Village
+  nextSceneName: Forest
 --- !u!61 &721808125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2028,6 +2028,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184949139559252521, guid: 002341b4cd82bd14a9dc88bf52814454,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8184949139559252523, guid: 002341b4cd82bd14a9dc88bf52814454,
         type: 3}
@@ -9262,7 +9267,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1816232323}
   - component: {fileID: 1816232322}
-  - component: {fileID: 1816232321}
   - component: {fileID: 1816232320}
   m_Layer: 0
   m_Name: InvisibleWall_Right
@@ -9283,22 +9287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bb8302bbf8adf4f8c64e2fdf00e70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Village
---- !u!114 &1816232321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816232319}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96c467beded1f414093053615c32b6c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  speed: 0
-  damage: 0
+  nextSceneName: Forest_Night
 --- !u!61 &1816232322
 BoxCollider2D:
   m_ObjectHideFlags: 0
