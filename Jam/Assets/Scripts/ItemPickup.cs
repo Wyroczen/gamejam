@@ -9,6 +9,8 @@ public class ItemPickup : MonoBehaviour
     [SerializeField]
     private TMP_Text pickUpText;
 
+    public GameObject NewShed;
+
     private bool pickUpAllowed;
     public Item item;
     // Start is called before the first frame update
@@ -24,14 +26,16 @@ public class ItemPickup : MonoBehaviour
         {
             PickUpShed();
         }
-        else if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
+        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
             PickUp();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.Log("mozna podniesc");
             pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
         };
@@ -41,6 +45,7 @@ public class ItemPickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("nie mozna podniesc");
             pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
         };
@@ -48,6 +53,7 @@ public class ItemPickup : MonoBehaviour
     
     private void PickUp()
     {
+        Debug.Log("PickedUp");
         bool wasPickedUp = Inventory.instance.Add(item);
 
         if (wasPickedUp)
@@ -67,6 +73,8 @@ public class ItemPickup : MonoBehaviour
 
         if (countLogs > 1 && countSoi > 0)
         {
+            var newShed = Instantiate(NewShed) as GameObject;
+            newShed.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3.0f, gameObject.transform.position.z);
             Destroy(gameObject);
         }
         else
