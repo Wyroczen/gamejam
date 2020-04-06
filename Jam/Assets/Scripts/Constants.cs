@@ -15,5 +15,7 @@ namespace Assets.Scripts
         public static int AttackDamage = 10;
 
         public static float MonsterVelocityModfier = 2.00f;
+
+        public static List<int> BuiltBuildings = new List<int>();
     }
 }

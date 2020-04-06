@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -71,10 +72,17 @@ public class ItemPickup : MonoBehaviour
         {
             var newShed = Instantiate(NewShed) as GameObject;
             newShed.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3.0f, gameObject.transform.position.z);
+            Constants.BuiltBuildings.Add(GetShedNumber());
             Destroy(gameObject);
         }
         else
             Debug.Log("Not enough logs or soi");
 
+    }
+
+    private int GetShedNumber()
+    {
+        int.TryParse(this.gameObject.name.Replace("shed", string.Empty), out int result);
+        return result;
     }
 }
