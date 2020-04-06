@@ -20,7 +20,11 @@ public class ItemPickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
+        if(pickUpAllowed && Input.GetKeyDown(KeyCode.E) && item.name == "Shed")
+        {
+            PickUpShed();
+        }
+        else if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
             PickUp();
     }
 
@@ -48,5 +52,25 @@ public class ItemPickup : MonoBehaviour
 
         if (wasPickedUp)
         Destroy(gameObject);
+    }
+
+    private void PickUpShed()
+    {
+        List<Item> list = Inventory.instance.GetList();
+        int countLogs = 0;
+        int countSoi = 0;
+        foreach (Item s in list)
+        {
+            if (s.name != null && s.name.StartsWith("Log")) countLogs++;
+            else if(s.name != null && s.name.StartsWith("Soi")) countSoi++;
+        }
+
+        if (countLogs > 1 && countSoi > 0)
+        {
+            Destroy(gameObject);
+        }
+        else
+            Debug.Log("Not enough logs or soi");
+
     }
 }
