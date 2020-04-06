@@ -32313,6 +32313,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6323064471615307518, guid: 002341b4cd82bd14a9dc88bf52814454,
+        type: 3}
+      propertyPath: items.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323064471615307518, guid: 002341b4cd82bd14a9dc88bf52814454,
+        type: 3}
+      propertyPath: items.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6315521f1aa30ce45b7d214dc4fa9a6b,
+        type: 2}
+    - target: {fileID: 6323064471615307518, guid: 002341b4cd82bd14a9dc88bf52814454,
+        type: 3}
+      propertyPath: items.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6315521f1aa30ce45b7d214dc4fa9a6b,
+        type: 2}
+    - target: {fileID: 6323064471615307518, guid: 002341b4cd82bd14a9dc88bf52814454,
+        type: 3}
+      propertyPath: items.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1344aae55ea8f4d4a84630433395ce0d,
+        type: 2}
     - target: {fileID: 8184949138083047840, guid: 002341b4cd82bd14a9dc88bf52814454,
         type: 3}
       propertyPath: m_Layer

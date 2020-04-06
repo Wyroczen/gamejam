@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 179348474780121090}
   - component: {fileID: 7094239488585294032}
   m_Layer: 0
-  m_Name: house_0
+  m_Name: HousePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
