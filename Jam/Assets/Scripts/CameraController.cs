@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour
 {
     public GameObject Player;
     private Vector3 Offset { get; set; }
+    [SerializeField] bool lockY;
 
     void Start()
     {
@@ -14,6 +15,14 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        transform.position = Player.transform.position + Offset;
+        if (lockY)
+        {
+            transform.position = new Vector3(Player.transform.position.x + Offset.x, transform.position.y, Player.transform.position.z + Offset.z);
+        }
+        else
+        { 
+            transform.position = Player.transform.position + Offset;
+        } 
+        
     }
 }
