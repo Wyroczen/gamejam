@@ -3365,6 +3365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ecdbbdebad94a45b6185bc56875291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSceneName: Village
 --- !u!1 &1154867197
 GameObject:
   m_ObjectHideFlags: 0
