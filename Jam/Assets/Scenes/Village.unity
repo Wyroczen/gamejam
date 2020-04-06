@@ -18146,6 +18146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ecdbbdebad94a45b6185bc56875291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSceneName: Village_Night
 --- !u!114 &1354321784 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6935661209505583875, guid: b0c110ff153548447a249d98226527db,

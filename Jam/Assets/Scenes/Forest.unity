@@ -618,6 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ecdbbdebad94a45b6185bc56875291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSceneName: Forest_Night
 --- !u!1001 &130150451
 PrefabInstance:
   m_ObjectHideFlags: 0
