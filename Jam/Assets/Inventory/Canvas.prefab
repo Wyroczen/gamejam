@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsParent: {fileID: 73454941246686177}
+  inventoryUI: {fileID: 73454942179160834}
 --- !u!1 &73454941246686176
 GameObject:
   m_ObjectHideFlags: 0
