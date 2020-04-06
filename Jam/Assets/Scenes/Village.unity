@@ -13178,7 +13178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bb8302bbf8adf4f8c64e2fdf00e70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: SampleScene
+  nextSceneName: Forest
 --- !u!1 &478488684
 GameObject:
   m_ObjectHideFlags: 0
@@ -17321,7 +17321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bb8302bbf8adf4f8c64e2fdf00e70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Village_Night
+  nextSceneName: Forest
 --- !u!1 &996390100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4538914402318456824, guid: d000cb8d94ad8d24c84c4ea8de7bd3a4,
