@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class ItemPickup : MonoBehaviour
 {
-    [SerializeField]
-    private TMP_Text pickUpText;
+    //[SerializeField]
+    //private TMP_Text pickUpText;
 
     public GameObject NewShed;
 
@@ -17,7 +17,7 @@ public class ItemPickup : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pickUpText.gameObject.SetActive(false);
+        //pickUpText.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class ItemPickup : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            pickUpText.gameObject.SetActive(true);
+            //pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
         };
     }
@@ -44,7 +44,7 @@ public class ItemPickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            pickUpText.gameObject.SetActive(false);
+            //pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
         };
     }
