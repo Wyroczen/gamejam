@@ -13,7 +13,8 @@ public class Inventory : MonoBehaviour
         {
             Debug.LogWarning("More than one inventory!!!!!!");
         }
-        instance = this;
+        else
+            instance = this;
     }
     #endregion
     public delegate void OnItemChanged();
