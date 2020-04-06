@@ -32,6 +32,12 @@ public class Inventory : MonoBehaviour
         OnItemChangedCallback.Invoke();
         return true;
     }
+    
+    public List<Item> GetList()
+    {
+        return items;
+    }
+
 
     public void Remove (Item item)
     {
