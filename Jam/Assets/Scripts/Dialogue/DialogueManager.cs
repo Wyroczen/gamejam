@@ -18,10 +18,9 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
     }
-    public void StartDialogue(Dialogue dialogue, bool start)
+    public void StartDialogue(Dialogue dialogue)
     {
-        if (start)
-        {
+        
             animator.SetBool("IsOpen", true);
             nameText.text = dialogue.name;
             sentences.Clear();
@@ -31,9 +30,7 @@ public class DialogueManager : MonoBehaviour
                 sentences.Enqueue(sentence);
             }
             DisplayNextSentence();
-        }
-        else
-            EndDialogue();
+      
 
     }
 
@@ -59,7 +56,7 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
     }
-    void EndDialogue()
+    public void EndDialogue()
     {
         Debug.Log("End of dialogue");
         animator.SetBool("IsOpen", false);

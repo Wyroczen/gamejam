@@ -11,19 +11,25 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            TriggerDialogue(true);
+            TriggerDialogue();
         };
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            TriggerDialogue(false);
+            TriggerEndDialogue();
         };
     }
 
-    public void TriggerDialogue(bool start)
+    public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue , start);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
+
+    public void TriggerEndDialogue()
+    { 
+        FindObjectOfType<DialogueManager>().EndDialogue();
+    }
+
 }
