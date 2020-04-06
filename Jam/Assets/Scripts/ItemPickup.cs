@@ -86,14 +86,11 @@ public class ItemPickup : MonoBehaviour
                 {
                     countSoi--;
                     Inventory.instance.Remove(s);
-
                 }
             }
         }
         else
             Debug.Log("Not enough logs or soi");
-        
-
     }
 
     private int GetShedNumber()
