@@ -74,9 +74,25 @@ public class ItemPickup : MonoBehaviour
             newShed.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3.0f, gameObject.transform.position.z);
             Constants.BuiltBuildings.Add(GetShedNumber());
             Destroy(gameObject);
+            
+            foreach (Item s in list)
+            {
+                if (s.name != null && s.name.StartsWith("Log") && countLogs > -1)
+                {
+                    countLogs--;
+                    Inventory.instance.Remove(s);
+                }
+                else if (s.name != null && s.name.StartsWith("Soi") && countSoi > -1)
+                {
+                    countSoi--;
+                    Inventory.instance.Remove(s);
+
+                }
+            }
         }
         else
             Debug.Log("Not enough logs or soi");
+        
 
     }
 
